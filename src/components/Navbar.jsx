@@ -22,6 +22,7 @@ const Navbar = () => {
           </a>
         ))}
       </ul>
+
       {/* mobile menu */}
       <div className='sm:hidden flex flex-1 justify-end items-center'>
         <img 
