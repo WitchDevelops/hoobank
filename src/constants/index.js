@@ -31,17 +31,17 @@ export const stats = [
   {
     id: "stats-1",
     title: "Active Users",
-    value: "3800+",
+    value: "3800",
   },
   {
     id: "stats-2",
     title: "Trusted by Companies",
-    value: "230+",
+    value: "220",
   },
   {
     id: "stats-3",
     title: "Transactions",
-    value: "$230M+",
+    value: "410",
   },
 ];
 
