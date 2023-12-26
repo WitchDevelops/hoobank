@@ -134,6 +134,9 @@
   background-color: #00040f85;
   backdrop-filter: blur(10px);
 }
+.navbar ul .active li {
+  color: #00f6ff;
+}
 .line {
   background: rgba(255, 255, 255, 0.60);
   width: 1.704px;

@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const CardDeal = () => {
   return (
-    <section className={layout.section}>
+    <section id='product' className={`${layout.section} ${styles.scrollMargin}`}>
       <div className={`${layout.sectionInfo} font-poppins`}>
         <h2 className={styles.heading2}>Find a better card deal in few easy steps.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Discover unbeatable credit card deals effortlessly with our modern banking app – your gateway to securing financial advantages in just a few simple steps</p>

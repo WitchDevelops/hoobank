@@ -4,7 +4,7 @@ import { Button, FeatureCard } from '../components';
 
 const Business = () => {
   return (
-    <section id='features' className={`${layout.section} ${styles.scrollMargin}`}>
+    <section id='about' className={`${layout.section} ${styles.scrollMargin}`}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>You do the business, we'll handle the money.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>

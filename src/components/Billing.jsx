@@ -3,7 +3,7 @@ import styles, { layout } from '../style';
 
 const Billing = () => {
   return (
-    <section id='product' className={`${layout.sectionReverse} ${styles.scrollMargin}`}>
+    <section id='features' className={`${layout.sectionReverse} ${styles.scrollMargin}`}>
       <div className={layout.sectionImgReverse}>
         <img src={bill} alt='example billing' className='w-[100%] h-[100%] relative z-[2]' />
         <div className='absolute z-[2] -left-1/2 top-0 w-[100%] h-[100%] rounded-full white__gradient'></div>
