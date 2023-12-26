@@ -98,7 +98,21 @@
 .box-shadow {
   box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
-
+.btn {
+  transition: all 0.3s ease-out;
+}
+.btn:hover {
+  background: linear-gradient(
+    157.81deg,
+    #c3dbdb -43.27%,
+    #a4d1d3 -21.24%,
+    #88cdcf 12.19%,
+    #6bc6c9 29.82%,
+    #50c3c7 51.94%,
+    #2ca1b3 90.29%
+  );
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
@@ -130,6 +144,38 @@
   margin-block: 1.5rem;
   border: none;
 }
+.get-started, .get-started p, .get-started span {
+  transition: all 0.3s ease-in-out;
+}
+.get-started:hover {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  & p, & span {
+    -webkit-text-fill-color: #00040f;
+    background-clip: unset;
+    background: transparent;
+  }
+}
+.get-started:active {
+  background: linear-gradient(
+    157.81deg,
+    #c3dbdb -43.27%,
+    #a4d1d3 -21.24%,
+    #88cdcf 12.19%,
+    #6bc6c9 29.82%,
+    #50c3c7 51.94%,
+    #2ca1b3 90.29%
+  );
+}
+
 .navbar {
   background-color: #00040f85;
   backdrop-filter: blur(10px);

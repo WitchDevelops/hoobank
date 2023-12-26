@@ -6,7 +6,7 @@ const Button = ({ styles }) => {
     <a
       href='#cta'
       type='button'
-      className={buttonStyles}
+      className={`${buttonStyles} btn`}
     >
       Get started
     </a>
