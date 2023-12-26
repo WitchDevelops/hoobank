@@ -133,6 +133,7 @@
 .navbar {
   background-color: #00040f85;
   backdrop-filter: blur(10px);
+  transition: all 0.3s ease-in-out;
 }
 .navbar ul .active li {
   color: #00f6ff;

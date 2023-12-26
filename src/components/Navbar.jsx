@@ -5,6 +5,9 @@ import { navLinks } from '../constants';
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [activeLink, setActiveLink] = useState('');
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
   const openMenu = () => {
     setToggle((prev) => !prev);
   }
@@ -17,6 +20,17 @@ const Navbar = () => {
   };
 
   const handleScroll = () => {
+    const currentScrollPos = window.scrollY;
+
+    // Determine the scroll direction
+    const isScrollingDown = currentScrollPos > prevScrollPos;
+
+    // Update the visibility state
+    setVisible(isScrollingDown ? false : true);
+
+    // Save the current scroll position for the next comparison
+    setPrevScrollPos(currentScrollPos);
+
     // Get all section elements
     const sections = document.querySelectorAll('section');
 
@@ -41,11 +55,11 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [prevScrollPos]);
 
 
   return (
-    <div className='fixed top-0 left-0 w-full flex py-6 px-6 justify-between items-center z-[3] navbar'>
+    <div className={`fixed top-0 left-0 w-full flex py-6 px-6 justify-between items-center z-[3] navbar ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
       <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
       <ul className='list-none sm:flex hidden justify-end items-center flex-1 gap-10'>
         {navLinks.map((nav) => (
