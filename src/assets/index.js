@@ -3,6 +3,7 @@ import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
+import copyrightSign from "./copyrightSign.svg";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
@@ -30,6 +31,7 @@ export {
   binance,
   card,
   coinbase,
+  copyrightSign,
   dropbox,
   logo,
   quotes,
