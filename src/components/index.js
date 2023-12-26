@@ -4,6 +4,7 @@ import Button from "./Button";
 import CardDeal from "./CardDeal";
 import Clients from "./Clients";
 import CTA from "./CTA";
+import FeatureCard from "./FeatureCard";
 import FeedbackCard from "./FeedbackCard";
 import Footer from "./Footer";
 import GetStarted from "./GetStarted";
@@ -19,6 +20,7 @@ export {
     CardDeal,
     Clients,
     CTA,
+    FeatureCard,
     FeedbackCard,
     Footer,
     GetStarted,
