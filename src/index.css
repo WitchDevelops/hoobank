@@ -116,6 +116,16 @@
   }
 }
 
+@keyframes slide {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(-500%);
+  }
+}
+
+
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
@@ -138,6 +148,9 @@
   filter: blur(123px);
 }
 
+/* .logo {
+  animation: slide 4s linear infinite;
+} */
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
   filter: blur(900px);
