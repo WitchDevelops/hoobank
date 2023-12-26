@@ -115,7 +115,14 @@
 .feedback-card:hover {
   background: var(--black-gradient);
 }
-
+.footer-icon {
+  padding: 16px;
+  border-radius: 99px;
+}
+.footer-icon:hover {
+  background: var(--black-gradient);
+    box-shadow: var(--card-shadow);
+}
 .footer-line {
   width: 95%;
   height: 1px;
@@ -123,7 +130,10 @@
   margin-block: 1.5rem;
   border: none;
 }
-
+.navbar {
+  background-color: #00040f85;
+  backdrop-filter: blur(10px);
+}
 .line {
   background: rgba(255, 255, 255, 0.60);
   width: 1.704px;
