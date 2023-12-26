@@ -26,7 +26,7 @@ This landing page was developed based on the design in Figma: [link](https://www
 * adjusting the transcation amounts in one graphic to be more reasonable
 * writing a more credible copy than Lorem ipsum filler text
 * fixed some typos
-* deisgned hover and active states and animations
+* designed hover and active states and animations
 
 ![Alt text](image.png)
 
